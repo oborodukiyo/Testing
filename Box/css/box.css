@@ -1,0 +1,137 @@
+body {
+    height: 100vh;
+    font-family: "Lato", "Noto Sans JP";
+    color: #333;
+    background: #f8f9fa !important;
+    font-size: 16px;
+}
+
+h1, h3{
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blankbox{
+    height: 50px;
+}
+
+
+/*ここからがボックスのスタイル*/
+.box {
+    padding: 1em;
+    margin: 2em 0;
+    color: #333!important;
+    font-size: .85em!important;
+    line-height: 2em!important;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.box p{
+    margin: 0!important;
+}
+.box ul{
+    list-style: none!important;
+    margin: 0!important;
+}
+
+.box-danger{
+    background-color: #ffc5cb;
+    border-left: solid 10px #ff8c96;
+}
+.box-danger>div:nth-of-type(1)::before{
+    content: "\f071";
+    font-family: "Font Awesome 5 Free";
+    margin-right: .5em;
+    color: #ff7280;
+}
+
+
+
+.box-description{
+    background-color: #f3d5c7;
+    border-left: solid 10px #f8a990;
+}
+.box-description>div:nth-of-type(1)::before{
+    content: "\f002";
+    font-family: "Font Awesome 5 Free";
+    margin-right: .5em;
+    color: #eb8d6a;
+}
+
+
+.box-recall{
+    background-color: #d4efd6;
+    border-left: solid 10px #aeddae;
+}
+.box-recall>div:nth-of-type(1)::before{
+    content: "\f549";
+    font-family: "Font Awesome 5 Free";
+    margin-right: .5em;
+    color: #6bbf6c;
+}
+
+
+.box-info{
+    background-color: #b6ccdd;
+    border-left: solid 10px #83aad6;
+}
+.box-info>div:nth-of-type(1)::before{
+    content: "\f05a";
+    font-family: "Font Awesome 5 Free";
+    margin-right: .5em;
+    color: #6193d6;
+}
+
+
+.box-forlang{
+    background-color: #e6d4ec;
+    border-left: solid 10px #e3baed;
+}
+.box-forlang>div:nth-of-type(1)::before{
+    content: "\f121";
+    font-family: "Font Awesome 5 Free";
+    margin-right: .5em;
+    color: #cf9ee4;
+}
+
+.box-example{
+    background-color: #dadada;
+    border-left: solid 10px #a8a8a8;
+}
+.box-example>div:nth-of-type(1)::before{
+    content: "\f1d8";
+    font-weight: 400;
+    font-family: "Font Awesome 5 Free";
+    margin-right: .5em;
+    color: #333;
+}
+
+.box-guide{
+    background-color: #f6f2dc;
+    border-left: solid 10px #f1e69d;
+}
+.box-guide>div:nth-of-type(1)::before{
+    content: "\f10d";
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    margin-right: .5em;
+    color: #333;
+}
+
+.box-notitle{
+    background-color: #f6f2dc;
+    border-left: solid 10px #f1e69d;
+}
+
+
+
+
+

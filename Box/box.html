@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/box.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Noto+Sans+JP:400,700,900|Noto+Serif+JP:400,700,900|PT+Sans:400,700|PT+Serif:400,700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+    <div class="container mx-auto m-5">
+        <div class="bg-white rounded px-lg-4 px-3 mb-1 mt-2 pt-2 pb-4" style="box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.1);">
+            <h1 class="text-center">Box Style</h1>
+
+            <h3>.box-danger</h3>
+            box-dangerは特に注意喚起したいときに用います。
+            <div class="box box-danger">
+                <div class="font-weight-bold">「＝」演算子について</div>
+                <div class="px-3 pt-1">
+                    <p>プログラミングにおける代入演算子「=」は、数学の「=」と意味が異なるので注意が必要です。数学では、「=」では右辺と左辺が同じという意味を持ちますが、プログラミングでは右のオペランドを左のオペランドに格納するという意味を持ちます。</p>
+                </div>
+            </div>
+            <div class="blankbox"></div>
+
+            <h3>.box-description</h3>
+            box-descriptionは用語を説明する際に用います。
+            <div class="box box-description">
+                <div class="font-weight-bold">識別子</div>
+                <div class="px-3 pt-1">
+                    <p>識別子とは、見分けをつけるために使われる特定の文字列や数字、簡単に言うとIDのようなものを指します。例えば、みかんを品質別に分けるとき、「綺麗なみかん」「凹凸があるみかん」「腐ったみかん」のように異なる箱を用意して区別を行うでしょう。それぞれの箱についた箱のラベルが識別子です。このように何らかの形でデータ（情報）を区別する時に識別子を使います。</p>
+                </div>
+            </div>
+            <div class="blankbox"></div>
+
+            <h3>.box-recall</h3>
+            box-recallは高校数学や物理などのおさらい、新たな定義の記述などに用います。
+            <div class="box box-recall">
+                <div class="font-weight-bold">数学における関数</div>
+                <div class="px-3 pt-1">
+                    <p>ここで昔数学の時間に勉強した関数を少し思い出してみましょう。中学生の時に勉強した一次関数は\(y=ax+b\)という形をしています。同じように、二次関数は\(y=ax^2+bx+c\)という形をしています。つまり、この2つは\(y=f(x)\)という形で書くことができます。この\(f\)は\(function\)の略で、関数という意味を持っています。</p>
+                    <p>\(f(x)\)の中身は三次関数でも指数関数でも何でもよく、何らかの入力\(x\)を受け取り、結果を返すものを総称して関数と呼びます。これを今回はプログラミングの世界でやろうというのがこの章の目的です。学校で勉強した時は、自分たちで手計算して値を求めていましたが、今回はプログラムが勝手に値を計算してくれます。では詳しく見ていきましょう。</p>
+                </div>
+            </div>
+            <div class="blankbox"></div>
+
+            <h3>.box-info</h3>
+            box-infoは重要度の低い補足などに用います。
+            <div class="box box-info">
+                <div class="font-weight-bold">文字エンコーディングとバイト数</div>
+                <div class="px-3 pt-1">
+                    <p>例えば、UTF-16では2バイトで表現することのできる文字はそのまま2バイトで表し、それ以上の2バイトで表現できない文字に関しては4バイトで表しています。一方、UTF-8では、英語や数字など頻繁に使われる文字は1バイトで表し、ラテン語は2バイトで表し、日本語は3バイトで表現しています。このように指定する方式によって、文字を表現する単位が変わります</p>
+                </div>
+            </div>
+            <div class="blankbox"></div>
+
+            <h3>.box-forlang</h3>
+            box-forlangはプログラミング言語ごとの補足などに用います。
+            <div class="box box-forlang">
+                <div class="font-weight-bold">C#</div>
+                <div class="px-3 pt-1">
+                    <p>C#の"整数"には、int型（32ビット）、byte型（8ビット）、short型（16ビット）、long型（64ビット）のデータ型が存在します。</p>
+                </div>
+            </div>
+            <div class="box box-forlang">
+                <div class="font-weight-bold">JavaScript</div>
+                <div class="px-3 pt-1">
+                    <p>JavaScriptでは、全ての数値はnumber型なので、どのような数値の組み合わせでもnumber型を返します。</p>
+                </div>
+            </div>
+            <div class="blankbox"></div>
+
+            <h3>.box-example</h3>
+            box-exampleは例を示すときに用います。
+            <div class="box box-example">
+                <div class="font-weight-bold">2進数の小数の計算</div>
+                <div class="px-3 pt-1">
+                    <p>
+                    2進数において10、100、1000と桁が増える時は、10進数の2(=2<sup>1</sup>)、4(=2<sup>2</sup>)、8(=2<sup>3</sup>)の時なので以下のような計算を行うことができます。2進数の110を上で紹介した方法で10進数に変換してみます。<br>
+
+                    (110) <sub>2</sub> = (2 <sup>2</sup> + 2 <sup>1</sup>) <sub>10</sub> = (6) <sub>10</sub><br>
+
+                    10進数の0,1,2,3,4,5,6は、2進数では0,1,10,11,100,101,110.. と表現されるので、計算結果が合っていることが直感的にもわかるでしょう。
+                    </p>
+                </div>
+            </div>
+            <div class="box box-example">
+                <div class="font-weight-bold">例１</div>
+                <div class="px-3 pt-1">
+                    <p>2 + 4 - 5</p>
+                </div>
+            </div>
+            <div class="box box-example">
+                <div class="font-weight-bold">例2</div>
+                <div class="px-3 pt-1">
+                    <p>10 - 2 * 5</p>
+                </div>
+            </div>
+            <div class="box box-example">
+                <div class="font-weight-bold">二者択一の例</div>
+                <div>
+                    <ul>
+                        <li>- 正誤判定</li>
+                        <li>- オン/オフ</li>
+                        <li>- 電気が流れる/流れない</li>
+                        <li>- ある値を超える/超えない</li>
+                        <li>- Yes/Noの質問</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="blankbox"></div>
+
+            <h3>.box-notitle</h3>
+            box-notitleはタイトルの無い記述で用います。（非推奨）
+            <div class="box box-notitle">
+                <div class="px-3"><p>プログラムを実行時に、型検査を行うプログラミング言語を動的型付け言語と呼びます。英語では動的なことをdynamicと呼ぶのでぜひ覚えておきましょう。dynamic言語の例として、JavaScript、Python、PHP、Rubyなどが挙げられます。</p></div>
+            </div>
+            <div class="blankbox"></div>
+
+            <h3>.box-guide</h3>
+            bix-guideはチャプター概要欄のsummaryで用います。
+            <div class="box box-guide">
+                <div class="font-weight-bold">このコースで学べること</div>
+                <div>
+                    <ul>
+                        <li>- データとは何かについて学習します。</li>
+                        <li>- プリミティブ型というデータがどのように処理されるかについて学習します。</>
+                        <li>- 変数を使用し、データの読み込みと書き込みについて学習します。</li>
+                        <li>- 関数について学び、問題を解決するために必要なプログラムを作成します。</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="py-5">
+                <div class="p-3">
+                    <script src="https://gist.github.com/oborodukiyo/69f10043ddfde0a73898df464979875d.js"></script>
+                </div>
+                <div class="p-3">
+                    <script src="https://gist.github.com/oborodukiyo/1ade3f662629f450dcb3a75534c63672.js"></script>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>
